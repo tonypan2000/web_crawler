@@ -10,7 +10,7 @@ def search_google(keyword):
     return [query for query in search(keyword,
                                       tld='com',  # The top level domain
                                       lang='en',  # The language
-                                      num=100,  # Number of results per page
+                                      num=10,  # Number of results per page
                                       start=0,  # First result to retrieve
                                       pause=2.0,  # Lapse between HTTP requests
                                       )]
